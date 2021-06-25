@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'curso';
+  title = 'Beca intensiva!!';
+
+  cantidad:number= 22;
+
+  sumar(){
+    this.cantidad = this.cantidad +1;
+  }
+
+  restar(){
+    this.cantidad = this.cantidad -1;
+  }
+
 }

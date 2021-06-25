@@ -1,0 +1,6 @@
+    <div class="card-body">
+      <h4 class="card-title">titulo: {{post.title | uppercase }}</h4>
+      <p class="card-text">id:  {{post.id}}</p>
+      <p class="card-text">Fecha: {{post.date | date:'MM-yy'}}  </p>
+      <a routerLink="/posts/{{index}}" class="btn btn-outline-primary">Ver más ...</a>
+    </div>
